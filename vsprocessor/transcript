@@ -1,0 +1,77 @@
+# Reading C:/modeltech64_10.6d/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do {vsprocessor_tb.fdo}
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:10:25 on Mar 16,2024
+# vlog -reportprogress 300 memrom.v 
+# -- Compiling module memrom
+# 
+# Top level modules:
+# 	memrom
+# End time: 18:10:25 on Mar 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:10:25 on Mar 16,2024
+# vlog -reportprogress 300 memram.v 
+# -- Compiling module memram
+# 
+# Top level modules:
+# 	memram
+# End time: 18:10:25 on Mar 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:10:25 on Mar 16,2024
+# vlog -reportprogress 300 vsprocessor.v 
+# -- Compiling module vsprocessor
+# 
+# Top level modules:
+# 	vsprocessor
+# End time: 18:10:25 on Mar 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:10:25 on Mar 16,2024
+# vlog -reportprogress 300 vsprocessor_tb.v 
+# -- Compiling module vsprocessor_tb
+# 
+# Top level modules:
+# 	vsprocessor_tb
+# End time: 18:10:25 on Mar 16,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 18:10:25 on Mar 16,2024
+# vlog -reportprogress 300 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 18:10:26 on Mar 16,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work work.vsprocessor_tb glbl 
+# Start time: 18:10:26 on Mar 16,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.vsprocessor_tb(fast)
+# Loading work.vsprocessor(fast)
+# Loading work.memram(fast)
+# Loading work.memrom(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : vsprocessor_tb.v(62)
+#    Time: 520 ns  Iteration: 0  Instance: /vsprocessor_tb
+# Break in Module vsprocessor_tb at vsprocessor_tb.v line 62
+# End time: 18:10:47 on Mar 16,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

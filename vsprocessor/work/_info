@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/souza/Desktop/processador/vsprocessor
+T_opt
+!s110 1710622404
+VOJ:Jl[>MVdEGk]VjQ@<dd3
+04 9 4 work memram_tb fast 0
+Z1 04 4 4 work glbl fast 0
+=1-b07b250d014c-65f606c4-4b-7694
+Z2 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.6d;65
+R0
+T_opt1
+Z5 !s110 1710623426
+VoZ[z>hZlfPWZmkML0NAoI2
+04 14 4 work vsprocessor_tb fast 0
+R1
+=1-b07b250d014c-65f60ac2-100-6cec
+R2
+R3
+n@_opt1
+R4
+vglbl
+R5
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+INz3046GECC=X7FgQ2]FR>3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1381681120
+8C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z8 !s108 1710623425.000000
+!s107 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vmemram
+Z10 !s110 1710623425
+!i10b 1
+!s100 aDf208Zm;hLQ@S^3_jcL`1
+IRkb;m4N8hIBm4o:X1hj0n2
+R6
+R0
+w1710622746
+8memram.v
+Fmemram.v
+L0 17
+R7
+r1
+!s85 0
+31
+R8
+!s107 memram.v|
+!s90 -reportprogress|300|memram.v|
+!i113 0
+R9
+R3
+vmemram_tb
+!s110 1710622403
+!i10b 1
+!s100 W:RQXHDkQZcLY744XZJ@h2
+IKU_FGA87oU?i^>z?j`00V0
+R6
+R0
+w1710622396
+8memram_tb.v
+Fmemram_tb.v
+Z11 L0 25
+R7
+r1
+!s85 0
+31
+!s108 1710622403.000000
+!s107 memram_tb.v|
+!s90 -reportprogress|300|memram_tb.v|
+!i113 0
+R9
+R3
+vmemrom
+R10
+!i10b 1
+!s100 =?4^8W3>G_Zc2;^K1oGPN0
+If86n>JBA5bkAA`IPfg2n?2
+R6
+R0
+w1710622637
+8memrom.v
+Fmemrom.v
+L0 39
+R7
+r1
+!s85 0
+31
+R8
+!s107 memrom.v|
+!s90 -reportprogress|300|memrom.v|
+!i113 0
+R9
+R3
+vvsprocessor
+R10
+!i10b 1
+!s100 `2c9[13fTMEE>7E]]2QY>3
+IB_HRP]VnGQG3FhIfieBV^1
+R6
+R0
+w1710623030
+8vsprocessor.v
+Fvsprocessor.v
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+!s107 vsprocessor.v|
+!s90 -reportprogress|300|vsprocessor.v|
+!i113 0
+R9
+R3
+vvsprocessor_tb
+R10
+!i10b 1
+!s100 >oXGEM0C1<o^9Yhi8hR7L0
+IDNIFgzF?MNibg:AA>9Y`S1
+R6
+R0
+w1710623417
+8vsprocessor_tb.v
+Fvsprocessor_tb.v
+R11
+R7
+r1
+!s85 0
+31
+R8
+!s107 vsprocessor_tb.v|
+!s90 -reportprogress|300|vsprocessor_tb.v|
+!i113 0
+R9
+R3

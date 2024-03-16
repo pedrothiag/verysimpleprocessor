@@ -1,0 +1,3 @@
+verilog work "memrom.v"
+verilog work "memram.v"
+verilog work "vsprocessor.v"
