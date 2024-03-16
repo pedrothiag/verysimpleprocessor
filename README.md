@@ -75,10 +75,19 @@ O arquivo vsprocessor_tb.v contém um testbench para simulação do processador.
 * fibo.asm - Gera a sequência de Fibonnaci;
 * divo.asm - Realiza divisão inteira entre dois números inteiros.
 
+Nas simulações coloquei para ver os seguintes valores:
+* Contador de Programa - PC;
+* Registrador de Instrução - IR;
+* Registrador de Saída - rout;
+* Registrador de Pilha - STACK;
+* Acumulador - acc.
+
 ## Plataforma de Prototipação e Ambiente de Desenvolvimento
 
-Para desenvolver esse processador utilizei o ambiente de desenvolvimento Xilinx ISE 14.7 e para simular utilizei o Modelsim SE-64 10.6d. A placa que utilizarei será a Mimas V2, da NumatoLab, que tem uma FPGA Spartan6. Ainda não tive tempo de implementar o projeto na FPGA, porém será a próxima etapa. Creio que você conseguirá colocar esse projeto em outras FPGAs com algumas alterações simples.
+Para desenvolver esse processador utilizei o ambiente de desenvolvimento Xilinx ISE 14.7 e para simular utilizei o Modelsim SE-64 10.6d. A placa que utilizarei será a Mimas V2, da NumatoLab, que tem uma FPGA Spartan6. Ainda não tive tempo de implementar o projeto na FPGA, porém será a próxima etapa. Creio que você conseguirá colocar esse projeto em outras FPGAs com algumas alterações simples. Os únicos arquivos realmente importantes são:
+* `memram.v` - Implementação da memória RAM;
+* `memrom.v` - Implementação da memória ROM;
+* `vsprocessor.v` - Implementação do processador;
+* `vsprocessor_tb.v` - Testbench de simulação para o processador.
 
-
-
-
+Todo o resto é um monte de parafernalha criada pelo ISE 🤣.
